@@ -136,7 +136,7 @@ button:hover, button:focus {
 
 @media (max-width: 375px) {
     body {
-        background-image: url(./assets/images/background-pattern-mobile.svg);
+        background-image: url(https://i.postimg.cc/W10QL69b/background.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
