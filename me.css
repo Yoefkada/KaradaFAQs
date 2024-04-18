@@ -133,38 +133,3 @@ button {
 button:hover, button:focus {
     color: purple;
 }
-
-@media (max-width: 375px) {
-    body {
-        background-image: url(https://i.postimg.cc/W10QL69b/background.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .accordion-container {
-        width: 86%;
-        margin: 30% 0 0;
-    }
-
-    .attribution {
-        display: flex;
-        flex-direction: column;
-        padding: 0.3rem 0;
-    }
-
-}
-
-@media (max-width: 566px) {
-    .accordion-container {
-        width: 90%;
-        margin: 10% 0;
-    }
-
-    .accordio-description {
-        transition: max-height 300ms ease;
-    }
-
-    .accordio-description p:last-child {
-        padding-bottom: 0.3rem;
-    }
-}
